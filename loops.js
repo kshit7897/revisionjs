@@ -93,15 +93,36 @@
 // console.log(stars);
 
 
-let num = 5;
-let count =1;
-for(let i=num; i>=1;i--){
-    let stars='';
-    for(let j=1; j<=i;j++){
-        stars=stars+'* '
+
+// let num = 5;
+// for(let i=num; i>=1;i--){
+//     let stars='  ';
+//     for(let j=1; j<=i;j++){
+//         stars=stars+'* '
+//     }
+//     console.log(stars);
+// }
+
+
+//============================================assignment question 1 ==========================//
+
+
+
+
+let count = 0;
+for(let i=1;i<=5;i++){
+    let n='';
+    let blank=' ';
+    for(let j=1;j<=i;j++){
         count=count+1;
-    }
-    console.log(count);
+        if(count<=9){
+            blank='  '
+        }
+        n=n+count+blank
+    }console.log(n);
 }
+
+
+
 
 
