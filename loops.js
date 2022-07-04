@@ -225,12 +225,49 @@
 // }
 
 
-let num = 5;
-count =1;
-for(let i=1;i<=num;i++){
-    let stars='';
-    for(let j=1;j<=i;j++){
-        stars+=j;
+// let num = 5;
+// count =1;
+// for(let i=1;i<=num;i++){
+//     let stars='';
+//     for(let j=1;j<=i;j++){
+//         stars+=j;
         
-    }console.log(stars);
+//     }console.log(stars);
+// }
+
+
+
+
+
+// function pattern(){
+//     let n = 5;
+    
+//     for(let i=1; i<=n; i++) {
+//       let stars = ''
+//       for(let j=i; j<=n; j++) {
+//         stars += j
+//       }
+//       for(let k=1; k<i; k++) {
+//         stars += k
+//       }
+//       console.log(stars)
+//     }
+//   }
+  
+  
+//   pattern()
+
+
+
+let num=5;
+for(let i=1;i<=num;i++){
+  let stars='';
+  for(let j=1;j<=i;j++){
+    if((i+j)%3===0){
+      stars+=1
+    }else{
+      stars+=0
+    }
+  }
+  console.log(stars)
 }
