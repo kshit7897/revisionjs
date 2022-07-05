@@ -4,3 +4,4 @@
     <img src="pattern4.PNG" alt="">
         <img src="pattern5.PNG" alt="">
     <img src="pattern6.PNG" alt="">
+      <img src="array1st.PNG" alt="">
