@@ -16,15 +16,34 @@
 
 
 
-let rajuDatail = {
-  name : 'raju',
-  age : '25',
-  locatioan : 'bardoli',
-  status : "singal ready to mingal",
-  futurewife : {
-    name : 'manju',
-    age : '25',
-    location : 'navsari'
-  }
-}
-console.log(rajuDatail);
+// let rajuDatail = {
+//   name : 'raju',
+//   age : '25',
+//   locatioan : 'bardoli',
+//   status : "singal ready to mingal",
+//   futurewife : {
+//     name : 'manju',
+//     age : '25',
+//     location : 'navsari'
+//   }
+// }
+// console.log(rajuDatail);
+
+
+
+// let elements = ['Bike', 'Scooter', 'Car', 'Truck', 'JCB' , 'Helicopter'];
+// console.log(elements[4])
+
+function isDuplicate(arr){
+    let str=[];
+      for(let i=0;i<arr.length;i++){
+        let element=arr[i];
+        if(str.indexOf(element)!==-1){
+          return true;
+        }
+        str.push(element);
+      }
+      return false
+    }
+    console.log(isDuplicate([1, 2, 3, 3, 5]))
+    exports.isDuplicate = isDuplicate
